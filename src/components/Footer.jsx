@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { SafeLink as Link } from "./SafeRouter";
 import { motion } from "framer-motion";
 
 // Custom SVGs for brand & social icons
