@@ -19,7 +19,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <section className="relative pt-32 pb-20 md:pt-40 md:pb-32 lg:pt-48 lg:pb-40 overflow-hidden bg-gradient-to-br from-gray-50 via-white to-primary-50">
+    <section className="relative pb-20 pt-10 md:pb-32 lg:pb-40 overflow-hidden bg-gradient-to-br from-gray-50 via-white to-primary-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Content */}
