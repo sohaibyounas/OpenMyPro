@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Menu, Search, Bell, ChevronDown, Building2 } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import Sidebar from './Sidebar'
 
 const Header = () => {
@@ -28,7 +29,7 @@ const Header = () => {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <div className="flex items-center space-x-3">
-              <a href="#" className="flex items-center space-x-3">
+              <Link to="/" className="flex items-center space-x-3">
                 {/* Logo Icon - Circular with star and butterfly */}
                 <div className="relative">
                   <div className="w-10 h-10 border-2 border-gray-700 rounded-full flex items-center justify-center">
@@ -56,7 +57,7 @@ const Header = () => {
                     Pro
                   </span>
                 </div>
-              </a>
+              </Link>
             </div>
 
             {/* Search Bar - Center */}
